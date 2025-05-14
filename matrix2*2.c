@@ -7,7 +7,7 @@ int main(){
     scanf("%d%d",&row,&col);
     int a[row][col],b[row][col],c[row][col];
     printf("enter the elements of matrixA:");
-    for(i=0;i<row;i++){0
+    for(i=0;i<row;i++){
     
     
         for(j=0;j<col;j++){
@@ -22,8 +22,9 @@ for(i=0;i<row;i++){
     for(j=0;j<col;j++){
         c[i][j]=a[i][j]+b[i][j];
     }
+    
 }
-printf("Sum matrix is:\n");
+printf("sum matrix is:\n");
 for(i=0;i<row;i++){
     for(j=0;j<col;j++){
         printf("%6d",c[i][j]);
@@ -31,3 +32,4 @@ for(i=0;i<row;i++){
     printf("\n");
 }
 }
+
